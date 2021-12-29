@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pushster&family=Sriracha&display=swap');
+ 
+:root{
+     --font1:Verdana, Geneva, Tahoma, sans-serif;
+     --font2:'Pushster', cursive;
+
+ }
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+html, body{
+    min-height: 100vh;
+    background-color: #eedb6e5d;
+    font-family: var(--font2);
+    
+    
+}
+header{
+    background-color: #1B7A43;
+    color: #FAE838;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font1);
+    font-size: 2em;
+}
+
+header > p{
+    padding-bottom: 50px;
+
+}
+a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+   
+    
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+ section > p{
+     padding-bottom: 2em;
+    
+     
+ }
+section{
+    padding-top:10vh;
+    padding-bottom:10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 20px;
+    border: 50vh;
+    
+  
+    
+}
+section.normal{
+    background-color:#a0c02b38 ;
+    padding: 10px;
+    width: 400px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.59);
+
+}
+
+
+section.imagem{
+    background-color: #71eb7933;
+    color: rgb(8, 8, 8);
+    margin-bottom: 10px;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+   
+   
+    
+}
+section.imagem >p{
+    background-color: rgba(0, 0, 0, 0.2);
+    color:white;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.59);
+    margin-bottom: 20px;
+    border-radius: 10px;
+   
+}
+section#img01{
+    background-image: url(../ex022/imagens/pequi2.jpeg);
+    background-position:   bottom center;
+    background-size: cover;
+   
+
+}
+section#img02{
+    background-image: url(../ex022/imagens/arrozpe.jpeg);
+    background-position: top center;
+    background-size: cover;
+
+    
+}
+section#img03{
+    background-image: url(../ex022/imagens/pequipeq.png);
+    background-position:   bottom center;
+    background-size: cover;
+    
+}
+footer{
+    background-color: #1B7A43;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
