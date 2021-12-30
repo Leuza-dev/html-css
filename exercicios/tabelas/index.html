@@ -22,7 +22,7 @@
 
     }
     td{
-        border: 5px solid black;
+        border: 1px solid black;
         padding: 8px;
         text-align: center; /* alinhamento horizontal */
         vertical-align: middle; /* alinhamento vertical*/
@@ -40,21 +40,23 @@
         table Header= cabeçalho da tabela
         table Data= dado de tabela (td)
         dado td, titulo th
+        colspan: o dado ocupa colunas vagas
+        rowspan? o dado ocupa linhas vagas 
     -->
     
     <table>
         <tr > <!--Primeira linha-->
             <td class="numero">A1</td>
             <td>B1</td>
-            <td>C1</td>
+            <td rowspan="3">C1</td>
         </tr>
         <tr> <!--Segunda linha-->
-            <td>A2</td>
-            <td>B2</td>
-            <td>C2</td>
+            
+            <td colspan="2">B2</td>
+            
         </tr>
         <tr> <!--Terceira linha -->
-            <td>A3</td>
+            
             <td class="numero">B3</td>
             <td>C3</td>
         </tr>
