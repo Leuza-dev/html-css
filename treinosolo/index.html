@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando Formulários</title>
+    <style>
+        body{
+            background-color: rgba(128, 255, 0, 0.446);
+        }
+        div{
+            margin: 20px;
+            border: 3px solid black;
+            padding: 20px;
+            margin-left: 0%;
+            border-radius: 5px;
+            background-color: cadetblue;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            
+        
+        }
+        .nome label{
+            font-size: 20px;
+            color: blue;
+        }
+        .segundo{
+            margin: 20px;
+            border: 3px solid black;
+            padding: 20px;
+            margin-left: 0%;
+            border-radius: 5px;
+            background-color: cadetblue;
+        }
+        .email{
+            margin: 20px;
+            border: 3px solid black;
+            padding: 20px;
+            margin-left: 0%;
+            border-radius: 5px;
+            background-color: cadetblue; 
+        }
+        .genero{
+            margin: 20px;
+            border: 3px solid black;
+            padding: 20px;
+            margin-left: 0%;
+            border-radius: 5px;
+            background-color: cadetblue; 
+        }
+        .datanas{
+            margin: 20px;
+            border: 3px solid black;
+            padding: 20px;
+            margin-left: 0%;
+            border-radius: 5px;
+            background-color: cadetblue; 
+        }
+        .password{
+            margin: 20px;
+            border: 3px solid black;
+            padding: 20px;
+            margin-left: 0%;
+            border-radius: 5px;
+            background-color: cadetblue; 
+        }
+        .msg{
+            margin: 20px;
+            border: 3px solid black;
+            padding: 20px;
+            margin-left: 0%;
+            border-radius: 5px;
+            background-color: cadetblue; 
+        }
+        .botao{
+            margin: 20px;
+            border: 3px solid black;
+            padding: 10px;
+            margin-left: 0%;
+            border-radius: 5px;
+            background-color: cadetblue; 
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <hr>
+   <form action="form.php" method="post">
+      <div class="nome">
+          <label> Primeiro Nome:</label>
+          <input type="text" placeholder="Digite seu nome">
+      </div>
+      
+      <div class="segundo">
+        <label> Segundo Nome:</label>
+        <input type="text" placeholder="Digite sobrenome">
+    </div>
+    <div class="email">
+        <label>Email:</label>
+        <input type="email" placeholder="Digite seu E-mail">
+    </div>
+    <div class="genero">
+        <label>Gênero:</label>
+        <select>
+          <option value="masculino"> Masculino</option>
+          <option value="feminino"> Feminino </option>
+          <option value="não desejo opinar">Não desejo opinar</option>
+        </select>
+    </div>
+    <div class="datanas">
+        <label>Data de Nascimento:</label>
+        <input type="date">
+    </div>
+    <div class="password" >
+        <label>Senha:</label>
+        <input type="password"placeholder="Digite sua senha">
+    </div>
+    <div class="msg">
+        <label>Mensagem:</label>
+        <textarea name="mensagem">
+
+        </textarea>
+        
+    </div>
+    <input type="submit" class="botao">
+   </form>
+   <hr>
+</body>
+</html>

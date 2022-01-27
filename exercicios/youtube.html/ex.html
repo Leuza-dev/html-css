@@ -1,0 +1,125 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name= "description" content="descrição completa do conteúdo limitada a 156 caracteres"/>
+        <meta name="keywords" content="html, tótulos, cabeçalhos,seo, meta tags"/>
+        <meta name="author" content="Leuza Lima"/>
+        <title>Listas</title> 
+        <style>
+            body{
+             font-family:Helvetica, sans-serif ;
+            }
+            a:link a:visited{
+                color: #ff6600;
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            #lista{
+                width: 960px;
+                margin:auto;
+                background-color: #e3e3e3;
+                padding:10px 20px;
+                
+            }
+            header h1{
+                padding:10px 20px;
+            }
+     header nav ul{
+         list-style: none;
+         padding: 0px;
+         
+
+     }
+        header nav ul li{
+            display: inline-block;
+            margin-right: 10px;
+
+        }
+            header nav ul li a{
+                font-size: 18px;
+                color: #ff6600;
+                text-decoration: none;
+
+            }
+            header nav ul li a:hover{
+text-decoration: underline;
+
+            }
+            #content{
+                  float: left;
+                  width: 660px;
+                  
+            }
+            #sidebar{
+               float: right;
+               width: 300;
+               
+            }
+            #sidebar ul{
+                     list-style: none;
+            }
+                #sidebar ul a{
+                    color: #ff6600;
+                    text-decoration: none;
+                }
+                #sidebar ul a :hover{
+                    
+                    text-decoration: underline;
+                }
+
+
+            footer{
+                clear: both;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="lista">
+            <header>
+                <nav>
+                    <h1>Nome do Site</h1>
+                    <ul>
+                        <li><a href="#">menu1</a></li>
+                        <li><a href="#">menu2</a></li>
+                        <li><a href="#">menu3</a></li>
+                        <li><a href="#">menu4</a></li>
+                        <li><a href="#">menu5</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="content">
+                <section>
+                       <h1>titulo da seção</h1>
+                       <p>conteúdo da seção</p>
+                </section>
+                <article>
+                    <h1>titulo do artigo</h1>
+                    <p>conteúdo do artigo</p>
+                </article>
+            </div>
+            <div id="sidebar">
+                <aside>
+                    <ul>
+                        <li><a href="#">submenu1</a></li>
+                        <li><a href="#">submenu2</a></li>
+                        <li><a href="#">submenu3</a></li>
+                        <li><a href="#">submenu4</a></li>
+                        <li><a href="#">submenu5</a></li>
+                
+                    </ul>
+          
+            </aside>
+        </div>
+    <div>
+            <footer>
+                Rodapé do site
+            </footer>
+    </div>
+    </body>
+    </html>
